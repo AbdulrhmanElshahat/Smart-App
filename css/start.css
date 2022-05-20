@@ -1,0 +1,25 @@
+
+.start video,
+.start p,
+.start a{
+    width: 400px;
+    text-align: center;
+}
+
+.start p{
+    margin-bottom: 45px;
+}
+.start a{
+    background-color: #2F2E41;
+    color: #fff;
+    padding: 28px;
+    font-weight: normal;
+}
+@media(max-width:540px){
+    .start video,
+    .start p,
+    .start a{
+        max-width: 270px;
+        text-align: center;
+    }
+}

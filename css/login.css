@@ -1,0 +1,35 @@
+.login form{
+    display: flex;
+    flex-direction: column;
+    
+}
+.login video,
+.login form{
+    width: 400px;
+    text-align: center;
+}
+.login form input,.login form button{
+    font-size: 24px;
+    padding: 11px;
+    margin-bottom: 45px;
+    outline: none;
+    text-align: center;
+    border: 1px solid #00000061;
+}
+
+/* .login form input::placeholder{
+    color: #000;
+} */
+.login form button{
+    background-color: #2F2E41;
+    border: none;
+    color: #FFF;
+    padding: 18.5px;
+    cursor: pointer;
+}
+@media(max-width:540px){
+    .login video,
+    .login form{
+        max-width: 270px;
+    }
+}
