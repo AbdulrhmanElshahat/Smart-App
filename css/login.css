@@ -3,11 +3,7 @@
     flex-direction: column;
     
 }
-.login video,
-.login form{
-    width: 400px;
-    text-align: center;
-}
+
 .login form input,.login form button{
     font-size: 24px;
     padding: 11px;

@@ -17,9 +17,10 @@
       <div class="student-name">Abdulrhman Elshahat</div>
       <a href="#" class="exit">خروج</a>
     </header>
+
     <section class="container the-times">
       <h3>جدول السكاشن</h3>
-      <div class="select-day">يوم الأحد</div>
+      <div class="select-day" id="theDay"></div>
       <div class="table">
         <div class="times">
           <div class="time round">نظم معلومات إدارية الساعة صباحا مدرج 5</div>
@@ -33,5 +34,9 @@
       >
       <div class="tip">اضغط علي الرقم او اختر القسم للمتابعه</div>
     </section>
+
+    <script>
+      document.querySelector("#theDay").textContent = localStorage.day;
+    </script>
   </body>
 </html>
