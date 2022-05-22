@@ -22,7 +22,7 @@ questions.forEach((question, index) => {
     //scroll to answer when click
     if (window.innerWidth < 912) {
       window.scrollTo(0, answerContainer.offsetTop);
-      console.log("cono");
+     
     }
   };
 });
