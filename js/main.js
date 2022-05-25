@@ -13,5 +13,5 @@ function keys(ele){
 }
 
 keys(links)
-if(window.location.pathname === '/questions.html'){keys(questions) ; console.log("Eshta ")}
+if(window.location.pathname.includes('questions.html')){keys(questions)}
 
