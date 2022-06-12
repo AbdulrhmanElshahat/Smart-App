@@ -1,4 +1,5 @@
 const links = document.querySelectorAll(".container a");
+const exitBtn = document.querySelector(".exit")
 
 function keys(ele){
     document.addEventListener("keydown", function(event){
@@ -13,5 +14,12 @@ function keys(ele){
 }
 
 keys(links)
-if(window.location.pathname.includes('questions.html')){keys(questions)}
+//when the user in questions page
+ if(window.location.pathname.includes('questions.html')){keys(questions)}
+
+ document.addEventListener("keydown", (event) => {
+    if (event.key == "Backspace") {
+      exitBtn.click();
+    }
+  });
 

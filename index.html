@@ -22,7 +22,14 @@
         تحتاجها في يومك الدراسي
       </p>
 
-      <a href="login.html" class="round"> ابدأ الأن</a>
+      <a href="login.html" class="round" id="start-now"> ابدأ الأن</a>
     </section>
+    <script>
+      document.addEventListener("keydown", (event) => {
+        if (event.key == "Enter") {
+          document.getElementById("start-now").click();
+        }
+      });
+    </script>
   </body>
 </html>
