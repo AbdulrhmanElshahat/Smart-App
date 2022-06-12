@@ -1,10 +1,10 @@
 const questions = document.querySelectorAll(".questions-section li"); 
 const answerContainer = document.querySelector(".answer");
 const answers = [
-  "عادي مينفعش ليه",
-  " مينفعش ليه",
-  "عادي مينفعش ",
-  "عادي ليه",
+  "نعم يمكن التحويل إلى مجموعة أخري ولكن بشروط  ",
+  "ان يوجداماكن فارغة في المجموعةالتي تريدهاويتم هذا من خلال مكتب الارشاد",
+  "يرمز حرف(م) في الجدول الي مدرج",
+  "يرمزان الحرفان(مع) في الجدول الي معمل",
 ];
 
 answerContainer.textContent = answers[0]; //set first answer default
